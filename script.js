@@ -21,6 +21,8 @@ decrementElement.addEventListener("click", () => {
 });
 
 resetElement.addEventListener("click", () => {
-  count = 1000;
+  if (count !== 0) {
+    count--;
+  }
   displayCount();
 });
