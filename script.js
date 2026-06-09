@@ -16,13 +16,14 @@ incrementElement.addEventListener("click", () => {
 });
 
 decrementElement.addEventListener("click", () => {
-  count--;
-  displayCount();
-});
-
-resetElement.addEventListener("click", () => {
   if (count !== 0) {
     count--;
   }
   displayCount();
 });
+
+resetElement.addEventListener("click", () => {
+  count = 1000;
+  displayCount();
+});
+
