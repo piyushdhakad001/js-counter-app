@@ -1,6 +1,7 @@
 const counterElement = document.querySelector(".counter");
 const incrementElement = document.querySelector(".increment");
 const decrementElement = document.querySelector(".decrement");
+const resetElement = document.querySelector(".reset");
 
 let count = 1000;
 displayCount();
@@ -16,5 +17,10 @@ incrementElement.addEventListener("click", () => {
 
 decrementElement.addEventListener("click", () => {
   count--;
+  displayCount();
+});
+
+resetElement.addEventListener("click", () => {
+  count = 1000;
   displayCount();
 });
