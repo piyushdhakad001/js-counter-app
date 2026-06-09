@@ -32,7 +32,7 @@ Supports increment, decrement, reset, and saves count using localStorage.
 ---
 
 ## Live Demo
-[Click Here](https://your-live-link.com)
+[Click Here](https://piyushdhakad001.github.io/js-counter-app/)
 
 ---
 
